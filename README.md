@@ -1,1 +1,1 @@
-Visit jesussanzdev.github.io and check out my latest projects!
+Visit jesussanzdev.com and check out my latest projects!
