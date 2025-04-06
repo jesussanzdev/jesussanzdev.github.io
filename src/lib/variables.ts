@@ -2,15 +2,14 @@
 
 export const GLOBAL = {
   // Site metadata
-  username: "Zaggonaut",
+  username: "Jesús Sanz",
   rootUrl: "https://zaggonaut.dev",
-  shortDescription: "Retro-Inspired Theme &<br /> Built for Astro",
-  longDescription: "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.",
+  shortDescription: "Lead Frontend Developer",
+  longDescription: "",
   
   // Social media links
-  githubProfile: "https://github.com/RATIU5/zaggonaut",
-  twitterProfile: "https://twitter.com/",
-  linkedinProfile: "https://www.linkedin.com/",
+  githubProfile: "https://github.com/jesussanzdev",
+  linkedinProfile: "https://www.linkedin.com/in/jesussanzdev/",
   
   // Common text names used throughout the site
   articlesName: "Articles",
@@ -32,7 +31,7 @@ export const GLOBAL = {
   projectLongDescription: "All of my projects, including both frontend and full-stack applications.",
 
   // Profile image
-  profileImage: "michael-dam-unsplash.webp",
+  profileImage: "avatar.webp",
 
   // Menu items
   menu: {
