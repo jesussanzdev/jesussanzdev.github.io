@@ -18,7 +18,7 @@ const { title, description, url, githubUrl, liveUrl, tags } = Astro.props;
     <Anchor url={url} class="text-xl">
       {title}
     </Anchor>
-    <div class="flex gap-2">
+    <div class="flex gap-2 arrow">
       {
         githubUrl ? (
           <Anchor url={githubUrl} class="text-base" external>
