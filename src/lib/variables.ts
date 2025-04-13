@@ -14,6 +14,7 @@ export const GLOBAL = {
   // Common text names used throughout the site
   articlesName: "Articles",
   projectsName: "Projects",
+  aboutName: "About Me",
   viewAll: "View All",
   
   // Common descriptions used throughout the site
@@ -30,13 +31,19 @@ export const GLOBAL = {
   projectShortDescription: "A list of my web development projects and developer tools.",
   projectLongDescription: "All of my projects, including both frontend and full-stack applications.",
 
+  //About metadata
+  aboutTitle: "About me",
+  aboutShortDescription: "About Jesus Sanz",
+
   // Profile image
   profileImage: "avatar.webp",
+  aboutImage: "variant.webp",
 
   // Menu items
   menu: {
     home: "/",
     projects: "/projects",
     blog: "/blog",
+    about: "/about",
   }
 };
