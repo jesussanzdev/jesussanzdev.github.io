@@ -50,9 +50,7 @@
     --zag-transition-duration: 0.15s;
     --zag-transition-timing-function: ease-in-out;
     --color-mondrian-red: #d40920;
-    --color-mondrian-yellow: #f7d842;
-    --color-mondrian-blue: #0081c3;
-  }
+    }
 
   .zag-transition {
     @media (prefers-reduced-motion: no-preference) {
@@ -73,7 +71,7 @@
   }
 
   .-zag-bg {
-    background-color: var(--color-mondrian-blue);
+    background-color: var(--color-mondrian-red);
     :where(.dark, .dark *) & {
       background-color: var(--color-zag-light);
     }
@@ -101,14 +99,14 @@
   }
 
   .zag-fill {
-    fill: var(--color-mondrian-blue);
+    fill: var(--color-mondrian-red);
     &:where(.dark, .dark *) {
       fill: var(--color-zag-light);
     }
   }
 
   .zag-text-muted {
-    color: var(--color-mondrian-blue);
+    color: var(--color-mondrian-red);
     &:where(.dark, .dark *) {
       color: var(--color-zag-light-muted);
     }
@@ -116,7 +114,7 @@
 
   .zag-border-b {
     border-bottom: var(--zag-stroke) solid;
-    border-color: var(--color-mondrian-yellow);
+    border-color: var(--color-zag-dark);
     &:where(.dark, .dark *) {
       border-color: var(--color-zag-light);
     }
@@ -129,11 +127,5 @@
   .opsz {
     font-variation-settings: "opsz" 72;
   }
-
-  h1, h2, h3 {
-    color: var(--color-mondrian-red);
-    &:where(.dark, .dark *) {
-      color: var(--color-zag-light);
-    }
-  }
 }
+
