@@ -3,7 +3,7 @@
 export const GLOBAL = {
   // Site metadata
   username: "Jesús Sanz",
-  rootUrl: "https://zaggonaut.dev",
+  rootUrl: "https://jesussanz.dev",
   shortDescription: "Lead Frontend Developer",
   longDescription: "",
   
