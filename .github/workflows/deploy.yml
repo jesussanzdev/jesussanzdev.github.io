@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repo
       uses: actions/checkout@v3
 
     - name: Setup PNPM
@@ -17,7 +17,7 @@ jobs:
       with:
         version: 8
 
-    - name: Install Node.js
+    - name: Setup Node
       uses: actions/setup-node@v3
       with:
         node-version: 20
@@ -29,8 +29,12 @@ jobs:
     - name: Build Astro
       run: pnpm run build
 
+    - name: Add CNAME file
+      run: echo 'jesussanz.dev' > dist/CNAME
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+        cname: jesussanz.dev
