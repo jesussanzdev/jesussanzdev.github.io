@@ -4,7 +4,7 @@ export const GLOBAL = {
   // Site metadata
   username: "Jesús Sanz",
   rootUrl: "https://jesussanz.dev",
-  shortDescription: "Lead Frontend Developer",
+  shortDescription: "I'm a <strong>front-end developer</strong> specializing in <strong>web applications</strong>, <strong>Angular</strong>, <strong>React</strong>, and modern UI with <strong>SCSS</strong>.",
   longDescription: "",
   
   // Social media links

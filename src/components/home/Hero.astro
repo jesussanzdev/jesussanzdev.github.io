@@ -5,8 +5,9 @@ import { GLOBAL } from "../../lib/variables";
 <div class="flex flex-col items-center sm:flex-row gap-8">
   <img
     src={GLOBAL.profileImage}
-    alt={GLOBAL.username}
+    alt={`Photo of ${GLOBAL.username}`}
     class="rounded-full max-w-40 w-40 h-40 mb-4 z-0 grayscale"
+    loading="lazy"
   />
   <div>
     <h1
@@ -14,10 +15,9 @@ import { GLOBAL } from "../../lib/variables";
     >
       {GLOBAL.username}
     </h1>
-    <h2
-      class="text-center text-xl sm:text-2xl font-mono font-medium sm:text-left"
-    >
-      <p set:html={GLOBAL.shortDescription}/>
-    </h2>
+    <div
+      class="text-center sm:text-left text-xl sm:text-2xl font-mono font-medium mt-2"
+      set:html={GLOBAL.shortDescription}
+    />
   </div>
 </div>

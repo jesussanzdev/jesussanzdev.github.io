@@ -7,50 +7,45 @@ import { GLOBAL } from "../../lib/variables";
 <Layout>
   <Fragment slot="head">
     <title>{GLOBAL.aboutTitle} • {GLOBAL.username}</title>
-    <meta
-      name="description"
-      content={GLOBAL.aboutShortDescription}
-    />
+    <meta name="description" content={GLOBAL.aboutShortDescription} />
     <meta property="og:title" content={`${GLOBAL.aboutTitle} • ${GLOBAL.username}`} />
-    <meta
-      property="og:description"
-      content={GLOBAL.aboutShortDescription}
-    />
+    <meta property="og:description" content={GLOBAL.aboutShortDescription} />
     <meta property="og:image" content={`${GLOBAL.rootUrl}/${GLOBAL.aboutImage}`} />
+    <meta property="og:image:alt" content="Profile picture of Jesús Sanz" />
     <meta property="og:url" content={`${GLOBAL.rootUrl}/about`} />
     <meta http-equiv="content-language" content="en" />
     <meta name="language" content="English" />
     <link rel="canonical" href={`${GLOBAL.rootUrl}/about`} />
   </Fragment>
 
-<Section class="py-4 my-8">
-  <div class="flex items-center gap-4 pt-8 pb-16">
-    <h1 class="font-display text-3xl sm:text-4xl leading-loose">{GLOBAL.aboutName}</h1>
-  </div>
+  <Section class="py-4 my-8">
+    <div class="flex items-center gap-4 pt-8 pb-16">
+      <h1 class="font-display text-3xl sm:text-4xl leading-loose">{GLOBAL.aboutName}</h1>
+    </div>
 
-  <div class="w-full my-6">
-    <img 
-      src={`${GLOBAL.rootUrl}/${GLOBAL.aboutImage}`}
-      alt="Full-width profile" 
-      class="w-full max-h-[400px] rounded-xl shadow-lg object-cover object-center"
-    />
-  </div>
+    <div class="w-full my-6">
+      <img 
+        src={`${GLOBAL.rootUrl}/${GLOBAL.aboutImage}`}
+        alt="Full-width profile" 
+        class="w-full max-h-[400px] rounded-xl shadow-lg object-cover object-center"
+        loading="lazy"
+      />
+    </div>
 
-  <div class="prose prose-lg dark:prose-invert max-w-none text-justify text-left">
-    <p>
-      Hi! I’m a Frontend Developer with 8+ years of experience, mainly focused on <strong>Angular</strong> (v8 to 19), <strong>React</strong>, and everything that makes the web fast, accessible, and user-friendly.
-    </p>
-    <p>
-      I currently work in different projects as Senior Developer at <strong>Hiberus Technology</strong>, taking care of performance, scalability, and UX/UI practices. I'm also a certified Scrum Master and have experience bridging frontend and backend teams with ease.
-    </p>
-    <p>
-      Previously, I worked full-stack with technologies like .NET, SQL, Vue, and React, building enterprise-level apps with multicultural teams.
-    </p>
-    <p>
-      Besides code, I have a strong background in <strong>social education and coordination</strong>, which helped me develop mentoring, empathy, and team facilitation skills — all of which I bring into the tech space.
-    </p>
-    <p>
-      Here's a quick snapshot of my skill set:
+    <div class="prose prose-lg dark:prose-invert max-w-none text-justify text-left">
+      <p>
+        Hi! I’m a <strong>frontend developer</strong> with over 8 years of experience, focused on building <strong>high-performance</strong>, <strong>accessible</strong>, and <strong>SEO-optimized</strong> web applications using <strong>Angular</strong>, <strong>React</strong>, and modern development tools.
+      </p>
+      <p>
+        I currently work as a Senior Developer at <strong>Hiberus Technology</strong>, where I lead performance optimization, UI/UX best practices, and scalable frontend architecture. I’m also a certified Scrum Master and help connect frontend and backend teams effectively.
+      </p>
+      <p>
+        In past roles, I’ve built full-stack enterprise apps with technologies like .NET, SQL, Vue, and React, collaborating across multicultural teams.
+      </p>
+      <p>
+        My background in <strong>social education and coordination</strong> has given me valuable mentoring and facilitation skills, which I bring into every team environment.
+      </p>
+      <p>Here’s a snapshot of my skill set:</p>
       <ul>
         <li><strong>Frontend:</strong> Angular, React, HTML5, CSS, JavaScript</li>
         <li><strong>Backend:</strong> Node.js, SQL</li>
@@ -58,17 +53,15 @@ import { GLOBAL } from "../../lib/variables";
         <li><strong>Soft skills:</strong> Teamwork, leadership, adaptability</li>
         <li><strong>Languages:</strong> Spanish (native), English (C1)</li>
       </ul>
-    </p>
-    <br/>
-  </div>
+    </div>
 
-  <div class="prose prose-lg dark:prose-invert max-w-none text-justify text-left">
-    <p>
-      When I’m not coding, you’ll probably find me outdoors — hiking, surfing, or exploring nature. It keeps me grounded, fuels my creativity, and reminds me to always think sustainably.
-    </p>
-    <p>
-      Always open to new ideas, projects, or just chatting about tech and design. You’ll find my contact links in the footer!
-    </p>
-  </div>
-</Section>
+    <div class="prose prose-lg dark:prose-invert max-w-none text-justify text-left mt-6">
+      <p>
+        When I’m not coding, you’ll probably find me outdoors — hiking, surfing, or exploring nature. It keeps me grounded, fuels my creativity, and reminds me to always think sustainably.
+      </p>
+      <p>
+        Always open to new ideas, projects, or just chatting about tech and design. You’ll find my contact links in the footer!
+      </p>
+    </div>
+  </Section>
 </Layout>
