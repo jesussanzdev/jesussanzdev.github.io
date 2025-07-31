@@ -11,10 +11,12 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.4.2",
     "@astrojs/tailwind": "^6.0.0",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.0.8",
     "astro": "^5.3.1",
+    "astro-sitemap": "^1.0.0",
     "tailwindcss": "^4.0.8"
   },
   "devDependencies": {
