@@ -16,5 +16,5 @@ Whether you're starting from scratch or reconnecting with your roots, AprendeAra
 
 ## Live Preview
 
-Explore the platform live at [aprendearagones.es](https://aprendearagones.es) and start your journey into the Aragonese language.
+Explore the platform live at [www.aprendearagones.es](https://www.aprendearagones.es) and start your journey into the Aragonese language.
 

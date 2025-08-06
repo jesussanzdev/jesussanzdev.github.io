@@ -3,7 +3,7 @@ layout: ../../layouts/BlogLayout.astro
 title: The Importance of SEO for Store Locators
 description: Learn how to optimize your store locator for better search engine visibility and user experience.
 tags: ["seo", "store locator", "local seo"]
-time: 4
+time: 7
 featured: false
 timestamp: 2023-05-25T00:00:00+00:00
 filename: seo-store-locator

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jesussanz.dev/sitemap-index.xml
+Sitemap: https://www.jesussanz.dev/sitemap-index.xml
